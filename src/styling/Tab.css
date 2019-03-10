@@ -4,7 +4,7 @@
 }
 
 .Tab-buttons button {
-  background-color: white;
+  background-color: #ccc;
   float: left;
   border: none;
   outline: none;
@@ -16,11 +16,13 @@
 }
 
 .Tab-buttons button:hover {
-  background-color: #ccc;
+  background-color: white;
+  border-top: 8px solid rgb(20, 160, 160);
 }
 
-.Tab-buttons button.active {
+.Tab-buttons button:active {
   background-color: white;
+  border-top: 8px solid rgb(20, 160, 160);
 }
 
 .Tab-content {

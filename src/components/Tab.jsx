@@ -30,27 +30,23 @@ class Tab extends Component {
   };
 
   render() {
-    // console.log(this.state.index);
-
-    // console.log(this.state.data[this.state.index]);
-
     return (
       <div className="Tab-container">
         <div className="Tab-buttons">
           <button
-            className="Tab-links"
+            className="Tab-link-selected"
             onClick={() => this.setState({ index: 0 })}
           >
             {this.state.data[0].Title}
           </button>
           <button
-            className="Tab-links"
+            className="Tab-link"
             onClick={() => this.setState({ index: 1 })}
           >
             {this.state.data[1].Title}
           </button>
           <button
-            className="Tab-links"
+            className="Tab-link"
             onClick={() => this.setState({ index: 2 })}
           >
             {this.state.data[2].Title}
