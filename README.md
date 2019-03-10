@@ -1,68 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tab Component Task
 
-## Available Scripts
+First time attempting to develop a tab component. Using react (see package.json for dependencies).
 
-In the project directory, you can run:
+**Given:** I am a site user  
+**When:** I click on a tab  
+**Then:** Then the related block should be shown  
+**And:** Any other open tabs should be closed
 
-### `npm start`
+**Given:** I am a site user  
+**When:** I click on a tab  
+**Then:** That tab should be marked as active
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Given:** I am a site user  
+**When:** I view the component  
+**Then:** I want it to render appropriately on whatever device I am currently using
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Run Instructions
 
-### `npm test`
+```
+git clone https://github.com/MandSolo/tab-component.git
+npm install
+npm start
+```
+### Acknowledgements
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Barney at code :)
 
-### `npm run build`
+And a bit of inspiration from this: https://www.w3schools.com/howto/howto_js_tabs.asp
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### SOME THOUGHTS FOR FUTURE MAND!!!
+Use media queries to make sure it looks good on small screens. Maybe design for mobile first?
+Suggested tab titles are terminal 1, terminal 2 and terminal 3 with directions in each tab. Maybe use lorem ipsum to fill the text for now?
+Do I need a json file with the text content of each tab? How would his be imported and passed down? Can I do it without?
