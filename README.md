@@ -28,6 +28,9 @@ Barney at code :)
 
 And a bit of inspiration from this: https://www.w3schools.com/howto/howto_js_tabs.asp
 
+All filler text from:
+https://www.bobrosslipsum.com/
+
 ### SOME THOUGHTS FOR FUTURE MAND!!!
 Use media queries to make sure it looks good on small screens. Maybe design for mobile first?
 Suggested tab titles are terminal 1, terminal 2 and terminal 3 with directions in each tab. Maybe use lorem ipsum to fill the text for now?
