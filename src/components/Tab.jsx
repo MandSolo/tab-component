@@ -34,19 +34,25 @@ class Tab extends Component {
       <div className="Tab-container">
         <div className="Tab-buttons">
           <button
-            className="Tab-link-selected"
+            className={
+              this.state.activeTab === 0 ? "Tab-link-selected" : "Tab-link"
+            }
             onClick={() => this.setState({ index: 0 })}
           >
             {this.state.data[0].Title}
           </button>
           <button
-            className="Tab-link"
+            className={
+              this.state.activeTab === 1 ? "Tab-link-selected" : "Tab-link"
+            }
             onClick={() => this.setState({ index: 1 })}
           >
             {this.state.data[1].Title}
           </button>
           <button
-            className="Tab-link"
+            className={
+              this.state.activeTab === 2 ? "Tab-link-selected" : "Tab-link"
+            }
             onClick={() => this.setState({ index: 2 })}
           >
             {this.state.data[2].Title}

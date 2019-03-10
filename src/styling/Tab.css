@@ -10,8 +10,9 @@
   outline: none;
   cursor: pointer;
   padding: 0% 6%;
-  font-family: "Anton", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 18px;
+  font-weight: bold;
   border-bottom: 5px solid #ccc;
   border-top: 5px solid #ccc;
 }
@@ -32,6 +33,6 @@
   background-color: white;
   padding: 4%;
   text-align: justify;
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 12px;
 }
