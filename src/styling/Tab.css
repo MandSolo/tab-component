@@ -1,0 +1,28 @@
+.Tab-buttons {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.Tab-buttons button {
+  background-color: #f1f1f1;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.Tab-buttons button:hover {
+  background-color: #ddd;
+}
+
+.Tab-buttons button.active {
+  background-color: #ccc;
+}
+
+.Tab-content {
+  background-color: #f1f1f1;
+  padding: 6px 12px;
+  text-align: justify;
+}
