@@ -24,27 +24,32 @@ class Tab extends Component {
         unlimited power. You have the ability to move mountains. Let the
         paint work.`
       }
-    ]
+    ],
+    index: 0
   };
 
   render() {
+    console.log(this.state.index);
+
+    console.log(this.state.data[this.state.index]);
+
     return (
       <div className="Tab-container">
         <div className="Tab-buttons">
-          <button class="tablinks" onclick="openTab(event, 'TabOne')">
-            TabOne
+          <button class="Tab-links" onClick={() => this.setState({ index: 0 })}>
+            Tab One
           </button>
-          <button class="tablinks" onclick="openTab(event, 'TabTwo')">
-            TabTwo
+          <button class="Tab-links" onClick={() => this.setState({ index: 1 })}>
+            Tab Two
           </button>
-          <button class="tablinks" onclick="openTab(event, 'TabThree')">
-            TabThree
+          <button class="Tab-links" onClick={() => this.setState({ index: 2 })}>
+            Tab Three
           </button>
         </div>
 
         <div className="Tab-content">
-          <h3>{this.state.data[0].Title}</h3>
-          <p>{this.state.data[0].Text}</p>
+          <h3>{this.state.data[this.state.index].Title}</h3>
+          <p>{this.state.data[this.state.index].Text}</p>
         </div>
       </div>
     );
