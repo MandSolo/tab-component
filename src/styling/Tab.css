@@ -9,20 +9,23 @@
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 2% 6%;
-  transition: 0.3s;
-  font-family: "Caveat Brush", cursive;
-  font-size: 28px;
+  padding: 0% 6%;
+  font-family: "Anton", sans-serif;
+  font-size: 18px;
+  border-bottom: 5px solid #ccc;
+  border-top: 5px solid #ccc;
 }
 
 .Tab-buttons button:hover {
   background-color: white;
-  border-top: 8px solid rgb(20, 160, 160);
+  border-top: 5px solid rgb(20, 160, 160);
+  border-bottom: 5px solid white;
 }
 
 .Tab-buttons button:active {
   background-color: white;
-  border-top: 8px solid rgb(20, 160, 160);
+  border-top: 5px solid rgb(20, 160, 160);
+  border-bottom: 5px solid white;
 }
 
 .Tab-content {
@@ -30,4 +33,5 @@
   padding: 4%;
   text-align: justify;
   font-family: "Nanum Gothic", sans-serif;
+  font-size: 12px;
 }
