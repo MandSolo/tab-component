@@ -4,25 +4,28 @@
 }
 
 .Tab-buttons button {
-  background-color: #f1f1f1;
+  background-color: white;
   float: left;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 2% 6%;
   transition: 0.3s;
+  font-family: "Caveat Brush", cursive;
+  font-size: 28px;
 }
 
 .Tab-buttons button:hover {
-  background-color: #ddd;
-}
-
-.Tab-buttons button.active {
   background-color: #ccc;
 }
 
+.Tab-buttons button.active {
+  background-color: white;
+}
+
 .Tab-content {
-  background-color: #f1f1f1;
-  padding: 6px 12px;
+  background-color: white;
+  padding: 4%;
   text-align: justify;
+  font-family: "Nanum Gothic", sans-serif;
 }
