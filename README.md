@@ -22,6 +22,7 @@ git clone https://github.com/MandSolo/tab-component.git
 npm install
 npm start
 ```
+
 ### Acknowledgements
 
 Barney at code :)
@@ -30,8 +31,3 @@ And a bit of inspiration from this: https://www.w3schools.com/howto/howto_js_tab
 
 All filler text from:
 https://www.bobrosslipsum.com/
-
-### SOME THOUGHTS FOR FUTURE MAND!!!
-Use media queries to make sure it looks good on small screens. Maybe design for mobile first?
-Suggested tab titles are terminal 1, terminal 2 and terminal 3 with directions in each tab. Maybe use lorem ipsum to fill the text for now?
-Do I need a json file with the text content of each tab? How would his be imported and passed down? Can I do it without?
