@@ -1,31 +1,11 @@
 import React, { Component } from "react";
 import "../styling/Tab.css";
 
+import data from "../data/tabData.json";
+
 class Tab extends Component {
   state = {
-    data: [
-      {
-        Title: "Tab 1",
-        Text: `Follow the lay of the land. It's most important. If you do too much
-        it's going to lose its effectiveness. I'm a water fanatic. I love
-        water. I can't think of anything more rewarding than being able to
-        express yourself to others through painting.`
-      },
-      {
-        Title: "Tab 2",
-        Text: `This is a happy place, little squirrels live here and play. But
-        we're not there yet, so we don't need to worry about it. Painting
-        should do one thing. It should put happiness in your heart. That is
-        when you can experience true joy, when you have no fear.`
-      },
-      {
-        Title: "Tab 3",
-        Text: `Everything's not great in life, but we can still find beauty in it.
-        We'll put a happy little sky in here. In painting, you have
-        unlimited power. You have the ability to move mountains. Let the
-        paint work.`
-      }
-    ],
+    data,
     index: 0
   };
 
