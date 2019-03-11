@@ -18,12 +18,18 @@
 }
 
 .Tab-buttons button:hover {
+  background-color: #bbb;
+  border-top: 5px solid #bbb;
+  border-bottom: 5px solid #bbb;
+}
+
+.Tab-buttons button:active {
   background-color: white;
   border-top: 5px solid rgb(20, 160, 160);
   border-bottom: 5px solid white;
 }
 
-.Tab-buttons button:active {
+.Tab-buttons button:focus {
   background-color: white;
   border-top: 5px solid rgb(20, 160, 160);
   border-bottom: 5px solid white;
